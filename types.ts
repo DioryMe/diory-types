@@ -34,7 +34,6 @@ export interface IDataClient {
 export interface IConnectionClient {
   dataClients: IDataClient[]
   connections: IConnectionObject[]
-  initialiseConnections: (connections?: IConnectionObject[]) => void
   getDiosphere: () => Promise<IDiosphereObject | undefined>
   saveDiosphere: (diosphereObject: IDiosphereObject) => void
   getDiograph: (connections?: IConnectionObject[]) => Promise<IDiographObject | undefined>
