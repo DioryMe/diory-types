@@ -1,6 +1,6 @@
 {
   "name": "@diory/types",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "types": "./types.ts",
   "author": "Olli-Pekka Pohjola <op@diory.me>",
   "license": "MIT",
